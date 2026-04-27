@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance Lab | Cadastro</title>
+    <link rel="stylesheet" href="../css/Style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">🏀 <span>Performance</span>Lab</div>
+        <a href="index.html" class="btn-login">Voltar</a>
+    </nav>
+
+    <main class="auth-container">
+        <div class="auth-card">
+            <h2>Crie sua conta</h2>
+            <p>Comece a monitorar seus atletas agora.</p>
+            
+            <form id="form_cadastro">
+                <input type="text" id="input_nome" placeholder="Nome Completo">
+                <input type="email" id="input_email" placeholder="E-mail">
+                <input type="password" id="input_senha" placeholder="Senha">
+                <input type="password" id="input_confirmar_senha" placeholder="Confirme a Senha">
+                <button type="button" onclick="cadastrar()">Cadastrar</button>
+            </form>
+            <div id="div_mensagem"></div>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

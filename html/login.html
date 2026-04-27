@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance Lab | Login</title>
+    <link rel="stylesheet" href="../css/Style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">🏀 <span>Performance</span>Lab</div>
+    </nav>
+
+    <main class="auth-container">
+        <div class="auth-card">
+            <h2>Bem-vindo de volta</h2>
+            <form id="form_login">
+                <input type="email" id="input_login_email" placeholder="E-mail">
+                <input type="password" id="input_login_senha" placeholder="Senha">
+                <button type="button" onclick="entrar()">Entrar</button>
+            </form>
+            <p class="toggle-auth">Não tem conta? <a href="cadastro.html">Cadastre-se</a></p>
+            <div id="div_mensagem_login"></div>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
